@@ -1,0 +1,16 @@
+package TestCasePackage;
+import org.testng.annotations.Test;
+import DriverPackage.BaseDriver;
+
+public class TC001_locatorLearning extends BaseDriver {
+	
+	String baseurl="https://rahulshettyacademy.com/locatorspractice/";
+	
+	@Test
+	public void locatorLearning()
+	{
+		
+		driver.get();
+	}
+	
+}

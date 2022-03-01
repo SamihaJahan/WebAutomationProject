@@ -1,0 +1,16 @@
+package TestCasePackage;
+
+import org.testng.annotations.Test;
+
+public class TC001_locatorLearning {
+	
+	String baseurl="https://rahulshettyacademy.com/locatorspractice/";
+	
+	@Test
+	public void locatorLearning()
+	{
+		
+		
+	}
+	
+}

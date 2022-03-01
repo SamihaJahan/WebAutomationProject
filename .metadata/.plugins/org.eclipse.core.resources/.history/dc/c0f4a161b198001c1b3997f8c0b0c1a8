@@ -1,0 +1,27 @@
+package TestCasePackage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.ClickAction;
+import org.testng.annotations.Test;
+
+public class TC001_locatorLearning extends BaseDriver {
+	
+	String baseurl="https://rahulshettyacademy.com/locatorspractice/";
+	
+	@Test
+	public void locatorLearning() throws InterruptedException
+	
+	{
+		
+		driver.get(baseurl);
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		
+		driver.findElement(By.id("inputusername")).sendKeys("Samiha");
+		driver.findElement(By.name("inputpassword")).sendKeys("Samiha123");
+		Thread.sleep(3000);
+	
+		driver.findElement(By.xpath("\\button[contains(text(),'Sign In']")).clear();
+	}
+	
+	
+}

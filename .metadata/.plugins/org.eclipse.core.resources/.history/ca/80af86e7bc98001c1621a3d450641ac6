@@ -1,0 +1,21 @@
+package Registration;
+public class SignUpTest extends DriverSet{
+
+	String baseurl="\"https://bikroy.com/\";
+	
+			@TestNG
+			
+		public static void main(String[] args) throws InterruptedException {
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Basic.Javaproject;
+
+public class Loop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 
+		//Array
+		String[] names = {"Samiha", "Sumu","Fh", "FS" ,"PS"};
+		
+		
+		
+		
+		
+		for (String value : names)
+		{
+			System.out.print(names);
+		}
+		
+		
+	}
+
+}

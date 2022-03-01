@@ -1,0 +1,43 @@
+package Registration;
+
+	import org.openqa.selenium.By;
+    import org.testng.annotations.Test;
+	
+	
+	
+	public class SignUpTest extends DriverSet{
+	
+		String baseurl="https://bikroy.com/";
+		
+		@Test
+		public void locatorLearning() throws InterruptedException
+		
+		{
+			
+			driver.get(baseurl);
+			driver.manage().window().maximize();
+			
+			driver.findElement(By.linkText("Login")).click();
+			Thread.sleep(3000);
+			
+			driver.findElement(By.xpath("/html/body/div[3]/div/div/div/div[2]/div[2]/div/div[3]/button")).click();
+
+			driver.findElement(By.name("email")).sendKeys("Samiha");
+			driver.findElement(By.name("Password")).sendKeys("samiha123");
+			driver.findElement(By.xpath("//button[text()='Login']")).click();
+			
+			Thread.sleep(1000);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+
+	}
+
+}

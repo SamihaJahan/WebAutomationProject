@@ -1,2 +1,2 @@
 # WebAutomationProject
-WebAutomation
+WebAutomationProject
